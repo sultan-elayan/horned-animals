@@ -107,3 +107,17 @@ Finish time: __6:00___
 
 Actual time needed to complete: __45 min___
 
+
+<!-- ======================================================== -->
+
+Number and name of feature: ________Display a Modal__________
+
+Estimate of time needed to complete: __2 hour___
+
+Start time: ___2:30__
+
+Finish time: __6:00___
+
+Actual time needed to complete: __45 min___
+
+

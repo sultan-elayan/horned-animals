@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, Col, Button } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 import SelectedBeast from './SelectedBeast';
 
 
@@ -20,12 +20,6 @@ class HornedBeasts extends Component {
             })
     }
 
-    // showModal = () => {
-
-
-    // }
-
-
     render() {
         return (
 
@@ -43,13 +37,14 @@ class HornedBeasts extends Component {
                         <SelectedBeast title={this.props.title}
                             description={this.props.description}
                             image_url={this.props.image_url}
-                            vote={this.state.vote} />
+                            vote={this.state.vote} 
+                            horns={this.props.horns}
+                            />
 
                         ❤️ <span>{this.state.vote}</span>
 
                     </Card.Body>
 
-                    {/* <Button onClick={this.showModal}>click me</Button> */}
                 </Card>
             </Col>
         )

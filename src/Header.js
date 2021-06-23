@@ -9,7 +9,7 @@ export class Header extends Component {
          
                 <header >
                     <h1 >
-                    Horned Animals Gallery
+                    Gallery Of Horns
                     </h1>
                 </header>
               

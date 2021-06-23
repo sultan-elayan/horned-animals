@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import beastsData from './data.json'
-import { Modal, Button, Card } from 'react-bootstrap';
-
-
-
-
-
+import { Modal, Button } from 'react-bootstrap';
 
 class SelectedBeast extends Component {
   constructor() {
@@ -23,10 +17,9 @@ class SelectedBeast extends Component {
 
 
     return (
-      <>
 
-
-          
+      
+      <>  
         <Modal show={this.state.show} onHide={this.handleModel}>
           <Modal.Header closeButton >
             <Modal.Title>{this.props.title}</Modal.Title>
@@ -40,10 +33,7 @@ class SelectedBeast extends Component {
           </Modal.Body>
         </Modal>
         <Button onClick={this.handleModel}> Click Here For More Info</Button>
-
-           
-          
-      </>
+     </>
     )
   }
   

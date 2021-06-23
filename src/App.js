@@ -3,11 +3,7 @@ import Header from './Header'
 import Main from './Main'
 import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container} from 'react-bootstrap';
-import SelectedBeast from './SelectedBeast';
-import beastsData from './data.json'
-
-
+import { Container } from 'react-bootstrap';
 
 
 export class App extends Component {
@@ -15,15 +11,13 @@ export class App extends Component {
     return (
       <div>
 
-        <Header/>
+        <Header />
+      
+        <Container>
+          <Main />
+        </Container>
 
-      <Container>
-
-        <Main/>
-
-       </Container>
-
-        <Footer/>
+        <Footer />
       </div>
     )
   }
